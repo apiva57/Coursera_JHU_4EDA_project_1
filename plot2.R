@@ -4,7 +4,7 @@ source("LoadPackagesData.R")
 if (file.exists("plot2.png"))
       file.remove("plot2.png")
 
-# diplay plot on the screen first, than copy it to png file 
+# display plot on the screen first, than copy it to png file 
 plot(data$datetime, data$Global_active_power, type = "l", xlab = "", 
      ylab = "Global Active Power (killowatts)")
 

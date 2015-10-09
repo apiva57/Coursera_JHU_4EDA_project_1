@@ -4,7 +4,7 @@ source("LoadPackagesData.R")
 if (file.exists("plot1.png"))
     file.remove("plot1.png")
 
-# diplay hist on screen first, than copy it to png file 
+# display hist on screen first, than copy it to png file 
 hist(data$Global_active_power, col = "red", main = "Global Active Power", 
      xlab = "Global Active Power (killowatts)")
 
